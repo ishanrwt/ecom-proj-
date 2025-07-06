@@ -156,7 +156,7 @@ function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-3">
-        <Link className="navbar-brand" to={ROUTES.home.name}>🎓 Ecom App</Link>
+        <Link className="navbar-brand" to={ROUTES.home.name}> LIBERRY</Link>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           {renderMenu()}

@@ -11,6 +11,7 @@ import Home from "../containers/user/home/Home";
 import UserProduct from "../containers/user/product/UserProduct";
 import ProductDetail from "../containers/user/productDetail/ProductDetail";
 import Cart from "../containers/user/cart/cart";
+import UniversityDemo from "../containers/user/demo/UniversityDemo";
 
 
 const ROUTES={
@@ -66,6 +67,10 @@ const ROUTES={
     cart: {
   name: "/cart",
   component: <Cart />,
+  demo: {
+  name: "/demo",
+  component: <UniversityDemo />,
+},
 }
 
 
